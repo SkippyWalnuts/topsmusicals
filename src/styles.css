@@ -51,15 +51,17 @@ h3, h4 {
 
 .current-musical-container {
     background-color: #fb7cc3;
+    border-radius: 2px;
     font-family: 'Poppins', sans-serif;
     max-width: 750px;
     margin: 15px auto;
-    padding: 10px 30px;
+    padding: 20px 50px;
 }
 
 
 .current-musical-img {
     display: block;
+    border-radius: 2px;
     margin: 15px auto 20px;
 
 }
@@ -90,7 +92,6 @@ h3, h4 {
 
 
 @media (max-width: 800px) {
-
     body {
         text-align: center;
     }
@@ -108,7 +109,7 @@ h3, h4 {
     }
     
     h4 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .current-musical-container p {
@@ -116,7 +117,7 @@ h3, h4 {
     }
 
     .ticket-buttons a {
-        font-size: 12px;
+        font-size: 11px;
     }
 
 }
