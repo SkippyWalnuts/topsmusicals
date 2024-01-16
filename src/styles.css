@@ -81,6 +81,7 @@ h3, h4 {
 
 .ticket-buttons button:hover {
     box-shadow: 3px 4px 4px rgb(247, 163, 212);
+    font-weight: bolder;
     transform: scale(1.1);
 }
 
@@ -88,6 +89,7 @@ h3, h4 {
     color: black;
     font-size: 15px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
