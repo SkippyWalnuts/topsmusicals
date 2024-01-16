@@ -92,6 +92,15 @@ h3, h4 {
     text-transform: uppercase;
 }
 
+.about-tops-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/barnham_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 150px 100px;
+}
+
 
 @media (max-width: 800px) {
     body {
