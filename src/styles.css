@@ -1,6 +1,7 @@
 body {
     background-color: #0089b0;
     color: #ffffff;
+    min-width: 350px;
 }
 
 .tops-navbar {
@@ -13,12 +14,7 @@ body {
     text-transform: uppercase;
 }
 
-.current-musical-container {
-    background-color: #fb7cc3;
-    font-family: 'Poppins', sans-serif;
-    max-width: 750px;
-    margin: 15px auto;
-}
+
 
 h1 {
     font-size: 70px;
@@ -52,7 +48,23 @@ h3, h4 {
     letter-spacing: 2px;
 }
 
-button {
+.current-musical-container {
+    background-color: #fb7cc3;
+    font-family: 'Poppins', sans-serif;
+    max-width: 750px;
+    margin: 15px auto;
+    padding: 10px 33px;
+}
+
+.current-musical-details {
+
+}
+
+.current-musical-img {
+    display: block;
+    margin: 15px auto 20px;
+
+}.ticket-buttons button {
     border-radius: 3px;
     display: block;
     margin: 10px auto;
@@ -61,17 +73,14 @@ button {
     width: 80%;
 }
 
-button:hover {
-    box-shadow: 3px 3px 2px 1px rgb(247, 163, 212);
+.ticket-buttons button:hover {
+    box-shadow: 3px 4px 4px rgb(247, 163, 212);
     transform: scale(1.1);
 }
 
-a {
+.ticket-buttons a {
     color: black;
+    font-size: 15px;
     text-decoration: none;
 }
 
-.current-musical-img {
-    display: block;
-    margin: 15px auto;
-}
