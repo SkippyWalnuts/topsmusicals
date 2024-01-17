@@ -37,6 +37,7 @@ h1, h2 {
 
 h1, h2, h3, h4 {
     font-family: 'Anton', sans-serif;
+    margin: 20px auto;
 }
 
 h3 {
@@ -50,6 +51,7 @@ h4 {
 
 h3, h4 {
     letter-spacing: 2px;
+    
 }
 
 ul {
@@ -154,6 +156,19 @@ ul {
     max-width: none;
     padding: 50px;
 }
+
+.email-form {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.orange-bg {
+    color: white;
+    background-color: rgb(247, 157, 68, 0.6);
+    border-radius: 5px;
+   }
 
 .footer-container {
     border-top: 5px solid white;
