@@ -104,6 +104,51 @@ h3, h4 {
     padding: 50px;
 }
 
+.quote-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/whistle_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 50px;
+}
+
+.join-tops-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/fiddler_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 50px;
+}
+
+.subscribe-tops-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/hampton_hill_theatre_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 50px;
+}
+
+.support-tops-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/ace_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 50px;
+}
+
+.contact-tops-container {
+    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/ace2_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+    padding: 50px;
+}
+
 .footer-container {
     border-top: 5px solid white;
     max-width: none;
