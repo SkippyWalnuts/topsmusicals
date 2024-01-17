@@ -16,6 +16,7 @@ body {
 
 .tops-navbar a, .footer-container a, .footer-container p{
     font-size: 15px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -232,6 +233,13 @@ ul {
 
     .about-tops-container {
         padding: 50px;
+    }
+
+    .email-form {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+        padding: 15px;
     }
 
 }
