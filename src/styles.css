@@ -61,6 +61,13 @@ ul {
 }
 
 
+
+button:hover {
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+
 .current-musical-container {
     background-color: #fb7cc3;
     border-radius: 2px;
@@ -93,8 +100,7 @@ ul {
 
 .ticket-buttons button:hover {
     box-shadow: 3px 4px 4px rgb(247, 163, 212);
-    font-weight: bolder;
-    transform: scale(1.1);
+
 }
 
 .ticket-buttons a {
@@ -105,7 +111,7 @@ ul {
 }
 
 .about-tops-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/barnham_background.jpg");
+    background-image: url("/src/images/barnham_background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
