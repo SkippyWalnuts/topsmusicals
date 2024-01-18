@@ -113,58 +113,47 @@ button:hover {
     color: white;
 }
 
+.container-bg-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: none;
+}
+
 .container-padding {
     padding: 50px 200px;
 }
 
 .about-tops-container {
     background-image: url("/src/images/barnham_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+
 
 }
 
 .quote-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/whistle_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+    background-image: url("/src/images/whistle_background.jpg");
+
     padding: 50px;
 }
 
 .join-tops-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/fiddler_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+    background-image: url("/src/images/fiddler_background.jpg");
+
     }
 
 .subscribe-tops-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/hampton_hill_theatre_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+    background-image: url("/src/images/hampton_hill_theatre_background.jpg");
+
     }
 
 .support-tops-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/ace_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+    background-image: url("/src/images/ace_background.jpg");
+
     }
 
 .contact-tops-container {
-    background-image: linear-gradient(rgba(2, 4, 3, 0.6), rgba(2, 4, 3, 0.8)), url("/src/images/ace2_background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
+    background-image: url("/src/images/ace2_background.jpg");
+
     }
 
 .email-form {
