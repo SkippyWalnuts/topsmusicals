@@ -36,7 +36,7 @@ h1, h2, h6 {
     text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
     margin: 20px auto;
 }
@@ -50,7 +50,11 @@ h4 {
     font-size: 18px;
 }
 
-h3, h4, h6 {
+h5 {
+    text-transform: uppercase;
+}
+
+h3, h4, h5, h6 {
     letter-spacing: 2px;
     
 }
@@ -126,34 +130,28 @@ button:hover {
 
 .about-tops-container {
     background-image: url("/src/images/barnham_background.jpg");
-
-
 }
 
 .quote-container {
     background-image: url("/src/images/whistle_background.jpg");
-
-    padding: 50px;
+    padding: 30px 250px 300px 500px;
+    text-align: right;
 }
 
 .join-tops-container {
     background-image: url("/src/images/fiddler_background.jpg");
-
     }
 
 .subscribe-tops-container {
     background-image: url("/src/images/hampton_hill_theatre_background.jpg");
-
     }
 
 .support-tops-container {
     background-image: url("/src/images/ace_background.jpg");
-
     }
 
 .contact-tops-container {
     background-image: url("/src/images/ace2_background.jpg");
-
     }
 
 .email-form {
