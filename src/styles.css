@@ -206,7 +206,7 @@ button:hover {
 
 @media (max-width: 1000px) {
     body {
-        margin: 100px 10px;
+        margin: 100px auto;
         text-align: center;
     }
 
