@@ -130,6 +130,10 @@ button:hover {
     padding: 50px 200px;
 }
 
+.responsive-divider {
+    display: none;
+}
+
 
 .about-tops-container {
     background-image: url("/src/images/barnham_background.jpg");
@@ -224,11 +228,15 @@ button:hover {
 
 
     .container-padding {
-        padding: 60px;
+        padding: 20px 60px;
     }
 
     .container {
         background-image: none;
+    }
+
+    .responsive-divider {
+        display: block;
     }
 
     .orange-bg {
