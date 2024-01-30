@@ -235,6 +235,12 @@ button:hover {
         background-image: none;
     }
 
+    .ticket-buttons button {
+        padding: 8px;
+    }
+
+
+
     .responsive-divider {
         display: block;
     }
