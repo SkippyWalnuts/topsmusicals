@@ -3,7 +3,7 @@ body {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     margin: 100px auto 100px;
-    min-width: 450px;
+    min-width: 380px;
 }
 
 .tops-navbar {
@@ -71,6 +71,10 @@ ul {
 button:hover {
     font-weight: bolder;
     transform: scale(1.1);
+}
+
+.container {
+    margin: 0 auto;
 }
 
 
@@ -224,6 +228,10 @@ button:hover {
     
     h4 {
         font-size: 15px;
+    }
+
+    p, li {
+        font-size: 12px;
     }
 
 
