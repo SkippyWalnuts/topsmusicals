@@ -131,7 +131,7 @@ button:hover {
 }
 
 .container-padding {
-    padding: 50px 200px;
+    padding: 20px 200px 0;
 }
 
 .responsive-divider {
@@ -273,10 +273,6 @@ button:hover {
 
     .ticket-buttons a {
         font-size: 11px;
-    }
-
-    .about-tops-container {
-        padding: 50px;
     }
 
     .quote-container {
