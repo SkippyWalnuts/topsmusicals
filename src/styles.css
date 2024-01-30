@@ -194,13 +194,13 @@ button:hover {
 }
 
 .footer-container p {
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 0;
     padding: 4px 10px;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     body {
         margin: 100px 10px;
         text-align: center;
@@ -227,8 +227,12 @@ button:hover {
         padding: 60px;
     }
 
-    .container-bg-img {
-        background-size: cover;
+    .container {
+        background-image: none;
+    }
+
+    .orange-bg {
+        background-color: rgb(247, 157, 68, 1);
     }
 
     .current-musical-container p {
@@ -254,13 +258,13 @@ button:hover {
     }
 
     .footer-container i {
-        font-size: 15px;
+        font-size: 14px;
         padding-left: 5px;
         padding-right: 5px;
     }
 
     .footer-container p {
-        font-size: 10px;
+        font-size: 8px;
 
     }
 
