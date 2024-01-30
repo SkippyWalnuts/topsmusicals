@@ -3,7 +3,7 @@ body {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     margin: 100px auto 100px;
-    min-width: 350px;
+    min-width: 450px;
 }
 
 .tops-navbar {
@@ -204,7 +204,7 @@ button:hover {
 }
 
 
-@media (max-width: 890px) {
+@media (max-width: 1000px) {
     body {
         margin: 100px 10px;
         text-align: center;
@@ -241,6 +241,16 @@ button:hover {
 
     .orange-bg {
         background-color: rgb(247, 157, 68, 1);
+    }
+
+    .card-body {
+        padding: 20px 50px;
+    }
+
+    .support-tops-container .card {
+        margin: 0 auto;
+        max-width: 80%;
+
     }
 
     .current-musical-container p {
